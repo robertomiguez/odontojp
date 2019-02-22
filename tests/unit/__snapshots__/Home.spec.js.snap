@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders the component 1`] = `
+<v-container-stub tag="div">
+  <v-layout-stub tag="div" text-xs-center="" wrap="">
+    <v-flex-stub tag="div" xs12="">
+      <div class="display-2 font-italic primary--text">
+        Bemvindo ao Consultório!
+      </div>
+      <div class="display-1 font-weight-thin primary--text">
+        Dr. João Paulo
+      </div>
+      <div class="">
+        <v-avatar-stub color="grey lighten-4" size="250">
+          <v-img-stub src="" position="center center" transition="fade-transition"></v-img-stub>
+        </v-avatar-stub>
+      </div>
+      <div>
+        <v-btn-stub color="primary" activeclass="v-btn--active" to="/contato" tag="button" dark="true" round="true" type="button">Contato</v-btn-stub>
+      </div>
+    </v-flex-stub>
+    <v-flex-stub tag="div" xs12=""></v-flex-stub>
+  </v-layout-stub>
+</v-container-stub>
+`;
