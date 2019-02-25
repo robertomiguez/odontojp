@@ -13,9 +13,9 @@
           {{ subtitle }}
         </div>
 
-        <div :class="{'mb-1' : $vuetify.breakpoint.xs, 'mb-4' : $vuetify.breakpoint.smAndUp}">
+          <div :class="{'mb-1' : $vuetify.breakpoint.xs, 'mb-4' : $vuetify.breakpoint.smAndUp}">
           <v-avatar
-            size="250"
+            :size="`${getAvatarSize()}`"
             color="grey lighten-4"
           >
             <v-img
@@ -41,7 +41,15 @@ export default {
   data: () => ({
     title: 'Bemvindo ao Consultório!',
     subtitle: 'Dr. João Paulo'
-  })
+  }),
+  methods: {
+    getAvatarSize () {
+      if (this.$vuetify.breakpoint.xs)
+        return '250'
+      else
+        return '400'
+    }
+  }
 }
 </script>
 
