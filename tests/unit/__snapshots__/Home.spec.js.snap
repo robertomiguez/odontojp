@@ -11,7 +11,7 @@ exports[`Home renders the component 1`] = `
         Dr. João Paulo
       </div>
       <div class="mb-4">
-        <v-avatar-stub color="grey lighten-4" size="250">
+        <v-avatar-stub color="grey lighten-4" size="400">
           <v-img-stub src="" position="center center" transition="fade-transition"></v-img-stub>
         </v-avatar-stub>
       </div>
