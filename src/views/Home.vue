@@ -44,10 +44,11 @@ export default {
   }),
   methods: {
     getAvatarSize () {
-      if (this.$vuetify.breakpoint.xs)
+      if (this.$vuetify.breakpoint.xs) {
         return '250'
-      else
+      } else {
         return '400'
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <v-app id="inspire" light>
+  <v-app id="inspire" light :style="{ backgroundColor: '#8F9298'}">
     <v-navigation-drawer
       v-model="drawer"
       fixed
